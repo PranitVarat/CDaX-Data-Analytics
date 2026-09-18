@@ -26,5 +26,5 @@ The Power BI dashboard was created using the prepared Excel data. It includes an
 ## Files
 
 * `CDAX Data Dictionary.xlsx` — CDaX Data Dictionary
-* `CDaX_PowerBI_Data.xlsx` — Excel data used to create the Power BI dashboard
+* `CDaX PowerBI Data.xlsx` — Excel data used to create the Power BI dashboard
 * `CDAX.pbix` — Power BI dashboard
