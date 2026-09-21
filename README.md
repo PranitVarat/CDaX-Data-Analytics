@@ -12,6 +12,7 @@ This repository contains the data analytics work prepared for the CDaX project.
 * Excel data prepared for Power BI
 * KPI definitions and formulas
 * Power BI dashboard
+* CDaX Event Tracking Specification
 
 ## Data Source
 
@@ -27,6 +28,12 @@ The data dictionary contains the CDaX entities and their related fields, includi
 
 The KPI file contains KPI definitions, formulas, data sources, frequency, and business purpose.
 
+## Event Tracking Specification
+
+The event tracking specification defines the events required for the CDaX application, including triggers, required parameters, user ID, course ID, timestamp, session ID, device/platform, and relevant business attributes.
+
+The specification covers pre-launch tracking requirements for registration, login, demo booking, demo attendance, course viewing, course enrollment, class attendance, recording usage, project activity, assessment activity, subscription, course switching, certificate generation, and support requests.
+
 ## Power BI Dashboard
 
 The Power BI dashboard was created using the prepared Excel data. It includes analysis of CDaX-related data, metrics, and trends.
@@ -36,4 +43,5 @@ The Power BI dashboard was created using the prepared Excel data. It includes an
 * `CDAX Data Dictionary.xlsx` — CDaX Data Dictionary
 * `CDaX PowerBI Data.xlsx` — Excel data used to create the Power BI dashboard
 * `CDAX_KPI_Formula.xlsx` — KPI definitions and formulas
+* `CDAX_Event_Tracking_Specification.xlsx` — CDaX event tracking specification
 * `CDAX.pbix` — Power BI dashboard
