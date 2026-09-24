@@ -14,6 +14,7 @@ This repository contains the data analytics work prepared for the CDaX project.
 * Power BI dashboard
 * CDaX Event Tracking Specification
 * CDaX Student Funnel Analysis
+* CDaX Recommendation & Experimentation Plan
 
 ## Data Source
 
@@ -53,6 +54,23 @@ The event tracking specification defines the events required for the CDaX applic
 
 The specification covers pre-launch tracking requirements for registration, login, demo booking, demo attendance, course viewing, course enrollment, class attendance, recording usage, project activity, assessment activity, subscription, course switching, certificate generation, and support requests.
 
+## Recommendation & Experimentation Plan
+
+The recommendation and experimentation plan defines data-driven recommendations for CDaX students, including:
+
+* Alternative courses
+* Recommended projects
+* Recommended learning content
+* Mentor/support intervention
+* Related courses
+* Upsell/upgrade opportunities
+
+The plan follows the approach:
+
+Recommendation → Student Action → Outcome
+
+Experiments use control and test groups to measure whether recommendations improve the desired outcomes. The plan includes success metrics and mapping to the available CDaX backend data.
+
 ## Power BI Dashboard
 
 The Power BI dashboard was created using the prepared Excel data. It includes analysis of CDaX-related data, metrics, and trends.
@@ -64,4 +82,5 @@ The Power BI dashboard was created using the prepared Excel data. It includes an
 * `CDAX_KPI_Formula.xlsx` — KPI definitions and formulas
 * `CDAX_Event_Tracking_Specification.xlsx` — CDaX event tracking specification
 * `CDAX_Student_Funnel_Analysis_Final.xlsx` — CDaX student funnel analysis
+* `CDAX_Recommendation_Experimentation_Plan.xlsx` — CDaX recommendation and experimentation plan
 * `CDAX.pbix` — Power BI dashboard
