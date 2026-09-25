@@ -15,6 +15,7 @@ This repository contains the data analytics work prepared for the CDaX project.
 * CDaX Event Tracking Specification
 * CDaX Student Funnel Analysis
 * CDaX Recommendation & Experimentation Plan
+* CDaX Student Engagement Model
 
 ## Data Source
 
@@ -71,6 +72,26 @@ Recommendation → Student Action → Outcome
 
 Experiments use control and test groups to measure whether recommendations improve the desired outcomes. The plan includes success metrics and mapping to the available CDaX backend data.
 
+## Student Engagement Model
+
+The student engagement model defines a systematic method to identify changes in student engagement using available CDaX data.
+
+The model considers:
+
+* Login activity
+* Attendance
+* Class participation
+* Recording usage
+* Learning streak
+* Project activity
+* Assessment activity
+
+Each signal is scored and weighted to calculate an overall engagement score. Students are then categorized as:
+
+Highly Engaged → Active → Declining → At Risk
+
+The methodology is based on available backend data and is designed to help identify students who may need early support or intervention.
+
 ## Power BI Dashboard
 
 The Power BI dashboard was created using the prepared Excel data. It includes analysis of CDaX-related data, metrics, and trends.
@@ -81,6 +102,7 @@ The Power BI dashboard was created using the prepared Excel data. It includes an
 * `CDaX PowerBI Data.xlsx` — Excel data used to create the Power BI dashboard
 * `CDAX_KPI_Formula.xlsx` — KPI definitions and formulas
 * `CDAX_Event_Tracking_Specification.xlsx` — CDaX event tracking specification
-* `CDAX_Student_Funnel_Analysis_Final.xlsx` — CDaX student funnel analysis
+* `CDAX_Student_Funnel_Analysis.xlsx` — CDaX student funnel analysis
 * `CDAX_Recommendation_Experimentation_Plan.xlsx` — CDaX recommendation and experimentation plan
+* `CDAX_Student_Engagement_Model.xlsx` — CDaX student engagement scoring methodology
 * `CDAX.pbix` — Power BI dashboard
