@@ -16,6 +16,7 @@ This repository contains the data analytics work prepared for the CDaX project.
 * CDaX Student Funnel Analysis
 * CDaX Recommendation & Experimentation Plan
 * CDaX Student Engagement Model
+* CDaX Management Analytics
 
 ## Data Source
 
@@ -92,6 +93,27 @@ Highly Engaged → Active → Declining → At Risk
 
 The methodology is based on available backend data and is designed to help identify students who may need early support or intervention.
 
+## Management Analytics
+
+The management analytics framework identifies important business questions that management needs to understand from CDaX data.
+
+It covers:
+
+* Student registrations and active students
+* Course performance and enrollment
+* Student attendance
+* Demo-to-enrollment conversion
+* Subscription and plan selection
+* Student drop-off
+* Course switching
+* Project and assessment performance
+* Recording usage and learning activity
+* Course completion and certificates
+* Revenue and payments
+* Student support
+
+Each business question is mapped to the required metric, data source, and analysis method.
+
 ## Power BI Dashboard
 
 The Power BI dashboard was created using the prepared Excel data. It includes analysis of CDaX-related data, metrics, and trends.
@@ -105,4 +127,5 @@ The Power BI dashboard was created using the prepared Excel data. It includes an
 * `CDAX_Student_Funnel_Analysis.xlsx` — CDaX student funnel analysis
 * `CDAX_Recommendation_Experimentation_Plan.xlsx` — CDaX recommendation and experimentation plan
 * `CDAX_Student_Engagement_Model.xlsx` — CDaX student engagement scoring methodology
+* `CDAX_Management_Analytics.xlsx` — CDaX management analytics framework
 * `CDAX.pbix` — Power BI dashboard
