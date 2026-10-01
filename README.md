@@ -17,6 +17,7 @@ This repository contains the data analytics work prepared for the CDaX project.
 * CDaX Recommendation & Experimentation Plan
 * CDaX Student Engagement Model
 * CDaX Management Analytics
+* CDaX Data Quality Audit
 
 ## Data Source
 
@@ -114,13 +115,35 @@ It covers:
 
 Each business question is mapped to the required metric, data source, and analysis method.
 
+## Data Quality Audit
+
+The CDaX Data Quality Audit checks whether the available data is accurate, complete, consistent, and usable for business analysis.
+
+The audit covers:
+
+* Missing student records
+* Duplicate students
+* Duplicate enrollments
+* Incorrect course IDs
+* Invalid payment records
+* Missing attendance
+* Impossible timestamps
+* Inconsistent subscription status
+* Missing course-switch information
+* Incorrect or null project data
+* Incorrect or null assessment data
+* Frontend and backend data mismatch
+* Tables and records that cannot be properly joined
+
+The audit also documents identified data issues, data gaps, validation requirements, and the additional source data required for checks that cannot be fully validated.
+
 ## Power BI Dashboard
 
 The Power BI dashboard was created using the prepared Excel data. It includes analysis of CDaX-related data, metrics, and trends.
 
 ## Files
 
-* `CDAX Data Dictionary.xlsx` — CDaX Data Dictionary
+* `CDAX_Data_Dictionary.xlsx` — CDaX Data Dictionary
 * `CDaX PowerBI Data.xlsx` — Excel data used to create the Power BI dashboard
 * `CDAX_KPI_Formula.xlsx` — KPI definitions and formulas
 * `CDAX_Event_Tracking_Specification.xlsx` — CDaX event tracking specification
@@ -128,4 +151,5 @@ The Power BI dashboard was created using the prepared Excel data. It includes an
 * `CDAX_Recommendation_Experimentation_Plan.xlsx` — CDaX recommendation and experimentation plan
 * `CDAX_Student_Engagement_Model.xlsx` — CDaX student engagement scoring methodology
 * `CDAX_Management_Analytics.xlsx` — CDaX management analytics framework
+* `CDAX_Data_Quality_Audit.xlsx` — CDaX data quality audit
 * `CDAX.pbix` — Power BI dashboard
