@@ -14,6 +14,7 @@ This repository contains the data analytics work prepared for the CDaX project.
 * Power BI dashboard
 * CDaX Event Tracking Specification
 * CDaX Student Funnel Analysis
+* CDaX Student Lifecycle Analysis
 * CDaX Recommendation & Experimentation Plan
 * CDaX Student Engagement Model
 * CDaX Management Analytics
@@ -23,7 +24,7 @@ This repository contains the data analytics work prepared for the CDaX project.
 
 The data was prepared based on the available CDaX sample data and backend seed data. The data was organized and prepared in Excel according to the analytics requirements.
 
-Some KPIs and funnel stages do not have sample or seed data available, so those values have been left blank and documented accordingly.
+Some KPIs, funnel stages, and lifecycle stages do not have sample or seed data available, so those values have been left blank and documented accordingly.
 
 ## Data Dictionary
 
@@ -50,6 +51,30 @@ The analysis includes:
 * Data availability and quality notes
 
 Only available sample and backend data has been used. Where the required data is not available, the corresponding funnel value has been left blank.
+
+## Student Lifecycle Analysis
+
+The student lifecycle analysis tracks the complete CDaX student journey from registration until renewal, course switching, or exit.
+
+The lifecycle stages include:
+
+Registration → Demo → Enrollment → Learning → Projects → Completion → Certificate → Renewal / Switch / Exit
+
+The analysis includes:
+
+* Stage-wise student counts
+* Stage-to-stage conversion rate
+* Drop-off rate
+* Average time between stages
+* Student learning activity
+* Number of courses taken
+* Course switching
+* Certificate completion
+* Renewal behavior
+* Student-level journey tracking
+* Data availability and lifecycle gaps
+
+The analysis is based only on the available CDaX sample and backend data. Where lifecycle data is not available, the stage has been documented as a data gap rather than using estimated values.
 
 ## Event Tracking Specification
 
@@ -148,6 +173,7 @@ The Power BI dashboard was created using the prepared Excel data. It includes an
 * `CDAX_KPI_Formula.xlsx` — KPI definitions and formulas
 * `CDAX_Event_Tracking_Specification.xlsx` — CDaX event tracking specification
 * `CDAX_Student_Funnel_Analysis.xlsx` — CDaX student funnel analysis
+* `CDAX_Student_Lifecycle_Analysis.xlsx` — CDaX student lifecycle analysis from registration through renewal, switching, or exit
 * `CDAX_Recommendation_Experimentation_Plan.xlsx` — CDaX recommendation and experimentation plan
 * `CDAX_Student_Engagement_Model.xlsx` — CDaX student engagement scoring methodology
 * `CDAX_Management_Analytics.xlsx` — CDaX management analytics framework
