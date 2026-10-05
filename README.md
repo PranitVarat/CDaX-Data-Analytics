@@ -20,12 +20,13 @@ This repository contains the data analytics work prepared for the CDaX project.
 * CDaX Student Value Segmentation
 * CDaX Management Analytics
 * CDaX Data Quality Audit
+* CDaX Revenue Forecasting Model
 
 ## Data Source
 
 The data was prepared based on the available CDaX sample data and backend seed data. The data was organized and prepared in Excel according to the analytics requirements.
 
-Some KPIs, funnel stages, lifecycle stages, and student value dimensions do not have sample or seed data available or fully verified, so those values have been left blank or documented as data gaps accordingly.
+Some KPIs, funnel stages, lifecycle stages, student value dimensions, subscription records, and revenue-related data do not have sample or seed data available or fully verified, so those values have been left blank or documented as data gaps accordingly.
 
 ## Data Dictionary
 
@@ -204,6 +205,21 @@ The audit covers:
 
 The audit also documents identified data issues, data gaps, validation requirements, and the additional source data required for checks that cannot be fully validated.
 
+## Revenue Forecasting Model
+
+The revenue forecasting model is designed to estimate future CDaX revenue based on student growth and subscription behavior.
+
+The model includes:
+
+* Student growth assumptions
+* Subscription mix and pricing
+* Renewal assumptions
+* Cancellation assumptions
+* Monthly revenue forecast
+* Best-case, Base-case, and Worst-case scenarios
+
+The model uses the available CDaX data and defined subscription pricing. Where historical subscription or revenue data is not available or fully verified, the values are documented as data gaps or forecast assumptions rather than using invented historical values.
+
 ## Power BI Dashboard
 
 The Power BI dashboard was created using the prepared Excel data. It includes analysis of CDaX-related data, metrics, and trends.
@@ -221,4 +237,5 @@ The Power BI dashboard was created using the prepared Excel data. It includes an
 * `CDAX_Student_Value_Segmentation.xlsx` — CDaX student value segmentation analysis
 * `CDAX_Management_Analytics.xlsx` — CDaX management analytics framework
 * `CDAX_Data_Quality_Audit.xlsx` — CDaX data quality audit
+* `CDAX_Revenue_Forecasting_Model.xlsx` — CDaX revenue forecasting model
 * `CDAX.pbix` — Power BI dashboard
