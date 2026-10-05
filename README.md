@@ -17,6 +17,7 @@ This repository contains the data analytics work prepared for the CDaX project.
 * CDaX Student Lifecycle Analysis
 * CDaX Recommendation & Experimentation Plan
 * CDaX Student Engagement Model
+* CDaX Student Value Segmentation
 * CDaX Management Analytics
 * CDaX Data Quality Audit
 
@@ -24,7 +25,7 @@ This repository contains the data analytics work prepared for the CDaX project.
 
 The data was prepared based on the available CDaX sample data and backend seed data. The data was organized and prepared in Excel according to the analytics requirements.
 
-Some KPIs, funnel stages, and lifecycle stages do not have sample or seed data available, so those values have been left blank and documented accordingly.
+Some KPIs, funnel stages, lifecycle stages, and student value dimensions do not have sample or seed data available or fully verified, so those values have been left blank or documented as data gaps accordingly.
 
 ## Data Dictionary
 
@@ -119,9 +120,50 @@ Highly Engaged → Active → Declining → At Risk
 
 The methodology is based on available backend data and is designed to help identify students who may need early support or intervention.
 
+## Student Value Segmentation
+
+The student value segmentation analysis identifies which types of students can create the most long-term value for CDaX.
+
+The analysis considers:
+
+* Number of courses taken
+* Subscription duration
+* Renewals
+* Course switching
+* Project activity
+* Course completion
+* Support usage
+* Revenue generated
+
+The analysis includes:
+
+* Student value dimensions
+* Student-level value analysis
+* High, Medium, and Low Value profile definitions
+* Weighted value scoring framework
+* Student value profiles
+* Backend data mapping
+* Data availability and gaps
+
+The value scoring framework assigns weights across the major value dimensions to support future student segmentation.
+
+The defined segments are:
+
+High Value → Multiple courses, longer subscription, renewals, project activity, high completion, and higher revenue
+
+Medium Value → Moderate course usage, active learning, some completion/project activity, and limited repeat activity
+
+Low Value → Single course, low learning activity, low completion, and limited repeat activity
+
+Where required student-level backend data is not available or fully verified, the student is classified as:
+
+Insufficient Data
+
+No revenue, renewal, subscription, project, switching, or support values have been invented where the required records were not verified.
+
 ## Management Analytics
 
-The management analytics framework identifies important business questions that management needs to understand from CDaX data.
+The management analytics framework identifies important business questions that management needs to understand from CDAX data.
 
 It covers:
 
@@ -176,6 +218,7 @@ The Power BI dashboard was created using the prepared Excel data. It includes an
 * `CDAX_Student_Lifecycle_Analysis.xlsx` — CDaX student lifecycle analysis from registration through renewal, switching, or exit
 * `CDAX_Recommendation_Experimentation_Plan.xlsx` — CDaX recommendation and experimentation plan
 * `CDAX_Student_Engagement_Model.xlsx` — CDaX student engagement scoring methodology
+* `CDAX_Student_Value_Segmentation.xlsx` — CDaX student value segmentation analysis
 * `CDAX_Management_Analytics.xlsx` — CDaX management analytics framework
 * `CDAX_Data_Quality_Audit.xlsx` — CDaX data quality audit
 * `CDAX.pbix` — Power BI dashboard
