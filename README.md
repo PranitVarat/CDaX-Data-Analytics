@@ -10,8 +10,8 @@ This repository contains the data analytics work prepared for the CDaX project.
 
 * CDaX Data Dictionary
 * Excel data prepared for Power BI
-* KPI definitions and formulas
 * Power BI dashboard
+* KPI definitions and formulas
 * CDaX Event Tracking Specification
 * CDaX Student Funnel Analysis
 * CDaX Student Lifecycle Analysis
@@ -21,6 +21,7 @@ This repository contains the data analytics work prepared for the CDaX project.
 * CDaX Management Analytics
 * CDaX Data Quality Audit
 * CDaX Revenue Forecasting Model
+* CDaX Course Demand Forecasting Model
 
 ## Data Source
 
@@ -31,6 +32,10 @@ Some KPIs, funnel stages, lifecycle stages, student value dimensions, subscripti
 ## Data Dictionary
 
 The data dictionary contains the CDaX entities and their related fields, including data types, descriptions, required/optional status, example values, sources, and relationships.
+
+## Power BI Dashboard
+
+The Power BI dashboard was created using the prepared Excel data. It includes analysis of CDaX-related data, metrics, and trends.
 
 ## KPI Analysis
 
@@ -220,14 +225,13 @@ The model includes:
 
 The model uses the available CDaX data and defined subscription pricing. Where historical subscription or revenue data is not available or fully verified, the values are documented as data gaps or forecast assumptions rather than using invented historical values.
 
-## Power BI Dashboard
 
-The Power BI dashboard was created using the prepared Excel data. It includes analysis of CDaX-related data, metrics, and trends.
 
 ## Files
 
 * `CDAX_Data_Dictionary.xlsx` — CDaX Data Dictionary
 * `CDaX PowerBI Data.xlsx` — Excel data used to create the Power BI dashboard
+* `CDAX.pbix` — Power BI dashboard
 * `CDAX_KPI_Formula.xlsx` — KPI definitions and formulas
 * `CDAX_Event_Tracking_Specification.xlsx` — CDaX event tracking specification
 * `CDAX_Student_Funnel_Analysis.xlsx` — CDaX student funnel analysis
@@ -238,4 +242,5 @@ The Power BI dashboard was created using the prepared Excel data. It includes an
 * `CDAX_Management_Analytics.xlsx` — CDaX management analytics framework
 * `CDAX_Data_Quality_Audit.xlsx` — CDaX data quality audit
 * `CDAX_Revenue_Forecasting_Model.xlsx` — CDaX revenue forecasting model
-* `CDAX.pbix` — Power BI dashboard
+* `CDAX_Course_Demand_Forecast.xlsx` — CDaX course demand forecasting model
+
