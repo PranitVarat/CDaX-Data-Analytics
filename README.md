@@ -15,6 +15,8 @@ This repository contains the data analytics work prepared for the CDaX project.
 * CDaX Event Tracking Specification
 * CDaX Student Funnel Analysis
 * CDaX Student Lifecycle Analysis
+* CDaX Recording Consumption Analysis
+* CDaX Course Switching Analysis
 * CDaX Recommendation & Experimentation Plan
 * CDaX Student Engagement Model
 * CDaX Student Value Segmentation
@@ -27,7 +29,7 @@ This repository contains the data analytics work prepared for the CDaX project.
 
 The data was prepared based on the available CDaX sample data and backend seed data. The data was organized and prepared in Excel according to the analytics requirements.
 
-Some KPIs, funnel stages, lifecycle stages, student value dimensions, subscription records, and revenue-related data do not have sample or seed data available or fully verified, so those values have been left blank or documented as data gaps accordingly.
+Some KPIs, funnel stages, lifecycle stages, student value dimensions, subscription records, revenue-related data, recording consumption data, and course-switching data do not have sample or seed data available or fully verified, so those values have been left blank or documented as data gaps accordingly.
 
 ## Data Dictionary
 
@@ -83,6 +85,52 @@ The analysis includes:
 
 The analysis is based only on the available CDaX sample and backend data. Where lifecycle data is not available, the stage has been documented as a data gap rather than using estimated values.
 
+## Recording Consumption Analysis
+
+The recording consumption analysis is designed to understand how students consume recorded learning content.
+
+The analysis covers:
+
+* Recording starts
+* Watch duration
+* Completion percentage
+* Repeat watching
+* Download activity
+* Time between download and viewing
+* Most watched recordings
+* Least watched recordings
+* Recordings where students frequently stop watching
+* Student-level recording consumption
+* Recording-level engagement patterns
+* Data availability and tracking gaps
+
+The analysis helps identify which recorded content is being consumed effectively and where students are dropping off during recordings.
+
+The analysis is based on available CDaX recording and backend data. Where recording start, watch duration, completion, repeat viewing, download, or viewing timestamps are not available or fully verified, the corresponding values have been left blank and documented as data gaps.
+
+## Course Switching Analysis
+
+The course switching analysis is designed to understand student course-switching behavior within CDaX.
+
+The analysis covers:
+
+* Number of course switches
+* Students who switched courses
+* Original course
+* New course
+* Course-switch date
+* Time between enrollment and switching
+* Most common course-switching paths
+* Courses with higher switching activity
+* Reasons for course switching where available
+* Student-level switching history
+* Course-switching patterns and trends
+* Data availability and tracking gaps
+
+The analysis helps identify which courses students switch from and to, and can support course improvement, student recommendations, retention analysis, and business decision-making.
+
+Only available CDaX sample and backend data has been used. Where course-switch records, switch reasons, timestamps, or related enrollment information are not available or fully verified, the corresponding values have been left blank and documented as data gaps.
+
 ## Event Tracking Specification
 
 The event tracking specification defines the events required for the CDaX application, including triggers, required parameters, user ID, course ID, timestamp, session ID, device/platform, and relevant business attributes.
@@ -128,7 +176,7 @@ The methodology is based on available backend data and is designed to help ident
 
 ## Student Value Segmentation
 
-The student value segmentation analysis identifies which types of students can create the most long-term value for CDaX.
+The student value segmentation analysis identifies which types of students can create the most long-term value for CDAX.
 
 The analysis considers:
 
@@ -203,6 +251,7 @@ The audit covers:
 * Impossible timestamps
 * Inconsistent subscription status
 * Missing course-switch information
+* Missing or incomplete recording consumption data
 * Incorrect or null project data
 * Incorrect or null assessment data
 * Frontend and backend data mismatch
@@ -225,8 +274,6 @@ The model includes:
 
 The model uses the available CDaX data and defined subscription pricing. Where historical subscription or revenue data is not available or fully verified, the values are documented as data gaps or forecast assumptions rather than using invented historical values.
 
-
-
 ## Files
 
 * `CDAX_Data_Dictionary.xlsx` — CDaX Data Dictionary
@@ -236,6 +283,8 @@ The model uses the available CDaX data and defined subscription pricing. Where h
 * `CDAX_Event_Tracking_Specification.xlsx` — CDaX event tracking specification
 * `CDAX_Student_Funnel_Analysis.xlsx` — CDaX student funnel analysis
 * `CDAX_Student_Lifecycle_Analysis.xlsx` — CDaX student lifecycle analysis from registration through renewal, switching, or exit
+* `CDAX_Recording_Consumption_Analysis.xlsx` — CDaX recording consumption analysis
+* `CDAX_Course_Switching_Analysis.xlsx` — CDaX course switching analysis
 * `CDAX_Recommendation_Experimentation_Plan.xlsx` — CDaX recommendation and experimentation plan
 * `CDAX_Student_Engagement_Model.xlsx` — CDaX student engagement scoring methodology
 * `CDAX_Student_Value_Segmentation.xlsx` — CDaX student value segmentation analysis
@@ -243,4 +292,3 @@ The model uses the available CDaX data and defined subscription pricing. Where h
 * `CDAX_Data_Quality_Audit.xlsx` — CDaX data quality audit
 * `CDAX_Revenue_Forecasting_Model.xlsx` — CDaX revenue forecasting model
 * `CDAX_Course_Demand_Forecast.xlsx` — CDaX course demand forecasting model
-
