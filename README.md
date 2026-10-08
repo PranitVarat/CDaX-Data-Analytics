@@ -24,12 +24,14 @@ This repository contains the data analytics work prepared for the CDaX project.
 * CDaX Data Quality Audit
 * CDaX Revenue Forecasting Model
 * CDaX Course Demand Forecasting Model
+* CDaX Attendance Pattern Analysis
+* CDaX Certificate & Completion Analysis
 
 ## Data Source
 
 The data was prepared based on the available CDaX sample data and backend seed data. The data was organized and prepared in Excel according to the analytics requirements.
 
-Some KPIs, funnel stages, lifecycle stages, student value dimensions, subscription records, revenue-related data, recording consumption data, and course-switching data do not have sample or seed data available or fully verified, so those values have been left blank or documented as data gaps accordingly.
+Some KPIs, funnel stages, lifecycle stages, student value dimensions, subscription records, revenue-related data, recording consumption data, course-switching data, attendance records, assessment records, project activity, and certificate records do not have sample or seed data available or fully verified. Therefore, those values have been left blank or documented as data gaps accordingly.
 
 ## Data Dictionary
 
@@ -274,6 +276,64 @@ The model includes:
 
 The model uses the available CDaX data and defined subscription pricing. Where historical subscription or revenue data is not available or fully verified, the values are documented as data gaps or forecast assumptions rather than using invented historical values.
 
+## Attendance Pattern Analysis
+
+The attendance pattern analysis goes beyond basic attendance percentage and is designed to understand student attendance behavior and engagement patterns.
+
+The analysis covers:
+
+* Students consistently attending
+* Students gradually reducing attendance
+* Students attending only certain classes
+* Weekday versus weekend attendance
+* Class timing patterns
+* Attendance before and after holidays
+* Attendance and course completion relationship
+* Available learning and engagement signals
+* Attendance data availability and tracking gaps
+
+The analysis is designed to help CDAX understand attendance behavior, identify potential engagement issues, and support decisions related to class scheduling and student engagement.
+
+Where student-level attendance records, class dates, class timings, holiday information, or attendance-linked completion data are not available or fully verified, the corresponding analysis has been documented as Not Calculable rather than using estimated values.
+
+## Certificate & Completion Analysis
+
+The certificate and completion analysis is designed to understand what happens between enrollment and certification.
+
+The analysis follows the journey:
+
+Enrollment → Learning → Assessment → Project → Completion → Certificate
+
+The analysis covers:
+
+* Certification rate
+* Time to certification
+* Course-wise certification
+* Students who complete learning but do not obtain certificates
+* Students who obtain certificates without completing expected activities, where applicable
+* Completion rate
+* Certification data availability
+* Assessment and project data gaps
+* Barriers between learning, completion, and certification
+
+The analysis is based only on the available CDAX sample and backend data.
+
+The current available data confirms:
+
+* 3 enrolled students
+* 1 student with observed learning activity based on watched content
+* 0 students reached 100% course completion
+* Course completion rate is 0%
+* Actual certificate records are not available in the reviewed sample
+* Assessment completion cannot be confirmed
+* Project activity records are not available
+
+The observed learning activity count should not be interpreted as learning completion. It represents a student with recorded learning activity such as watched content.
+
+Because actual certificate records are unavailable, certification rate, time to certification, course-wise certification, learning-completed-without-certificate analysis, and certificate validation against expected activities cannot currently be calculated.
+
+These values have been left blank or documented as Not Calculable rather than using assumed or estimated values.
+
 ## Files
 
 * `CDAX_Data_Dictionary.xlsx` — CDaX Data Dictionary
@@ -292,3 +352,5 @@ The model uses the available CDaX data and defined subscription pricing. Where h
 * `CDAX_Data_Quality_Audit.xlsx` — CDaX data quality audit
 * `CDAX_Revenue_Forecasting_Model.xlsx` — CDaX revenue forecasting model
 * `CDAX_Course_Demand_Forecast.xlsx` — CDaX course demand forecasting model
+* `CDAX_Attendance_Pattern_Analysis.xlsx` — CDaX attendance pattern analysis
+* `CDAX_Certificate_Completion_Analysis.xlsx` — CDaX certificate and completion analysis
