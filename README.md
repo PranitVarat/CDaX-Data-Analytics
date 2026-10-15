@@ -4,360 +4,220 @@ CDaX Data Analytics and Power BI Dashboard
 
 ## About
 
-This repository contains the data analytics work prepared for the CDaX project.
+This repository contains the data analytics work prepared for the CDaX project using available backend seed data, sample data, Excel, SQL, and Power BI.
 
 ## Work Included
 
 * CDaX Data Dictionary
-* Excel data prepared for Power BI
-* Power BI dashboard
-* KPI definitions and formulas
-* CDaX Event Tracking Specification
-* CDaX Student Funnel Analysis
-* CDaX Student Lifecycle Analysis
-* CDaX Recording Consumption Analysis
-* CDaX Course Switching Analysis
-* CDaX Recommendation & Experimentation Plan
-* CDaX Student Engagement Model
-* CDaX Student Value Segmentation
-* CDaX Management Analytics
-* CDaX Data Quality Audit
-* CDaX Revenue Forecasting Model
-* CDaX Course Demand Forecasting Model
-* CDaX Attendance Pattern Analysis
-* CDaX Certificate & Completion Analysis
-* CDaX Notification Effectiveness Analysis
+* Excel Data Preparation for Power BI
+* Power BI Dashboard
+* KPI Definitions and Formulas
+* Event Tracking Specification
+* Student Funnel Analysis
+* Student Lifecycle Analysis
+* Recording Consumption Analysis
+* Course Switching Analysis
+* Recommendation & Experimentation Plan
+* Student Engagement Model
+* Student Value Segmentation
+* Management Analytics
+* Data Quality Audit
+* Revenue Forecasting Model
+* Course Demand Forecasting Model
+* Attendance Pattern Analysis
+* Certificate & Completion Analysis
+* Notification Effectiveness Analysis
+* Mentor Allocation Model
+* Live Class Capacity Model
+* Pricing Scenario Simulator
 
 ## Data Source
 
-The data was prepared based on the available CDaX sample data and backend seed data. The data was organized and prepared in Excel according to the analytics requirements.
-
-Some KPIs, funnel stages, lifecycle stages, student value dimensions, subscription records, revenue-related data, recording consumption data, course-switching data, attendance records, assessment records, project activity, and certificate records do not have sample or seed data available or fully verified. Therefore, those values have been left blank or documented as data gaps accordingly.
+The analysis uses available CDaX sample data and backend seed data. Missing or unverified information is left blank or documented as a data gap. Forecasts and proposed scenarios are distinguished from actual results.
 
 ## Data Dictionary
 
-The data dictionary contains the CDaX entities and their related fields, including data types, descriptions, required/optional status, example values, sources, and relationships.
+Documents CDaX entities, fields, data types, descriptions, required/optional status, examples, sources, and relationships.
 
 ## Power BI Dashboard
 
-The Power BI dashboard was created using the prepared Excel data. It includes analysis of CDaX-related data, metrics, and trends.
+Uses prepared Excel data to present available CDaX metrics, business performance, and trends.
 
 ## KPI Analysis
 
-The KPI file contains KPI definitions, formulas, data sources, frequency, and business purpose.
+Defines KPIs, formulas, data sources, reporting frequency, and business purpose.
 
 ## Student Funnel Analysis
 
-The student funnel analysis tracks the CDaX student journey through the following stages:
+Tracks the student journey:
 
 Visitor → Registration → Demo → Enrollment → First Class → Active Student → Project → Course Completion → Certificate
 
-The analysis includes:
-
-* Stage-wise student counts
-* Conversion rate
-* Drop-off rate
-* Time between stages
-* Cohort-level comparison
-* Backend data source mapping
-* Data availability and quality notes
-
-Only available sample and backend data has been used. Where the required data is not available, the corresponding funnel value has been left blank.
+Includes stage-wise counts, conversion rates, drop-offs, time between stages, cohort comparisons, and data gaps. Unavailable values are left blank.
 
 ## Student Lifecycle Analysis
 
-The student lifecycle analysis tracks the complete CDaX student journey from registration until renewal, course switching, or exit.
-
-The lifecycle stages include:
+Tracks the student journey:
 
 Registration → Demo → Enrollment → Learning → Projects → Completion → Certificate → Renewal / Switch / Exit
 
-The analysis includes:
-
-* Stage-wise student counts
-* Stage-to-stage conversion rate
-* Drop-off rate
-* Average time between stages
-* Student learning activity
-* Number of courses taken
-* Course switching
-* Certificate completion
-* Renewal behavior
-* Student-level journey tracking
-* Data availability and lifecycle gaps
-
-The analysis is based only on the available CDaX sample and backend data. Where lifecycle data is not available, the stage has been documented as a data gap rather than using estimated values.
+Analyzes stage conversions, drop-offs, learning activity, course participation, switching, completion, renewal, and lifecycle data gaps.
 
 ## Recording Consumption Analysis
 
-The recording consumption analysis is designed to understand how students consume recorded learning content.
-
-The analysis covers:
-
-* Recording starts
-* Watch duration
-* Completion percentage
-* Repeat watching
-* Download activity
-* Time between download and viewing
-* Most watched recordings
-* Least watched recordings
-* Recordings where students frequently stop watching
-* Student-level recording consumption
-* Recording-level engagement patterns
-* Data availability and tracking gaps
-
-The analysis helps identify which recorded content is being consumed effectively and where students are dropping off during recordings.
-
-The analysis is based on available CDaX recording and backend data. Where recording start, watch duration, completion, repeat viewing, download, or viewing timestamps are not available or fully verified, the corresponding values have been left blank and documented as data gaps.
+Analyzes recording starts, watch duration, completion percentage, repeat viewing, downloads, popular recordings, viewing patterns, and student engagement. Missing recording events and timestamps are documented as data gaps.
 
 ## Course Switching Analysis
 
-The course switching analysis is designed to understand student course-switching behavior within CDaX.
-
-The analysis covers:
-
-* Number of course switches
-* Students who switched courses
-* Original course
-* New course
-* Course-switch date
-* Time between enrollment and switching
-* Most common course-switching paths
-* Courses with higher switching activity
-* Reasons for course switching where available
-* Student-level switching history
-* Course-switching patterns and trends
-* Data availability and tracking gaps
-
-The analysis helps identify which courses students switch from and to, and can support course improvement, student recommendations, retention analysis, and business decision-making.
-
-Only available CDaX sample and backend data has been used. Where course-switch records, switch reasons, timestamps, or related enrollment information are not available or fully verified, the corresponding values have been left blank and documented as data gaps.
+Examines course switches, original and new courses, switching dates, time to switch, switching paths, available reasons, and course-level patterns. Unavailable switching records are not estimated.
 
 ## Event Tracking Specification
 
-The event tracking specification defines the events required for the CDaX application, including triggers, required parameters, user ID, course ID, timestamp, session ID, device/platform, and relevant business attributes.
-
-The specification covers pre-launch tracking requirements for registration, login, demo booking, demo attendance, course viewing, course enrollment, class attendance, recording usage, project activity, assessment activity, subscription, course switching, certificate generation, and support requests.
+Defines application events, triggers, required parameters, user IDs, course IDs, timestamps, session details, and business attributes for registration, demos, enrollment, classes, recordings, projects, assessments, subscriptions, switching, certificates, and support.
 
 ## Recommendation & Experimentation Plan
 
-The recommendation and experimentation plan defines data-driven recommendations for CDaX students, including:
+Defines recommendations for alternative courses, projects, learning content, mentor support, related courses, and upgrades.
 
-* Alternative courses
-* Recommended projects
-* Recommended learning content
-* Mentor/support intervention
-* Related courses
-* Upsell/upgrade opportunities
-
-The plan follows the approach:
+Uses the approach:
 
 Recommendation → Student Action → Outcome
 
-Experiments use control and test groups to measure whether recommendations improve the desired outcomes. The plan includes success metrics and mapping to the available CDaX backend data.
+Includes experiment design, control and test groups, success metrics, and available data mappings.
 
 ## Student Engagement Model
 
-The student engagement model defines a systematic method to identify changes in student engagement using available CDaX data.
+Evaluates student engagement using login activity, attendance, participation, recording usage, streaks, projects, and assessments.
 
-The model considers:
-
-* Login activity
-* Attendance
-* Class participation
-* Recording usage
-* Learning streak
-* Project activity
-* Assessment activity
-
-Each signal is scored and weighted to calculate an overall engagement score. Students are then categorized as:
+Defines the engagement categories:
 
 Highly Engaged → Active → Declining → At Risk
 
-The methodology is based on available backend data and is designed to help identify students who may need early support or intervention.
+Missing activity data is documented rather than treated as confirmed engagement.
 
 ## Student Value Segmentation
 
-The student value segmentation analysis identifies which types of students can create the most long-term value for CDAX.
+Evaluates student value using course participation, subscription duration, renewals, switching, projects, completion, support usage, and revenue.
 
-The analysis considers:
-
-* Number of courses taken
-* Subscription duration
-* Renewals
-* Course switching
-* Project activity
-* Course completion
-* Support usage
-* Revenue generated
-
-The analysis includes:
-
-* Student value dimensions
-* Student-level value analysis
-* High, Medium, and Low Value profile definitions
-* Weighted value scoring framework
-* Student value profiles
-* Backend data mapping
-* Data availability and gaps
-
-The value scoring framework assigns weights across the major value dimensions to support future student segmentation.
-
-The defined segments are:
-
-High Value → Multiple courses, longer subscription, renewals, project activity, high completion, and higher revenue
-
-Medium Value → Moderate course usage, active learning, some completion/project activity, and limited repeat activity
-
-Low Value → Single course, low learning activity, low completion, and limited repeat activity
-
-Where required student-level backend data is not available or fully verified, the student is classified as:
-
-Insufficient Data
-
-No revenue, renewal, subscription, project, switching, or support values have been invented where the required records were not verified.
+Defines High, Medium, and Low Value profiles using a proposed scoring framework. Students with insufficient verified information are classified as **Insufficient Data**.
 
 ## Management Analytics
 
-The management analytics framework identifies important business questions that management needs to understand from CDAX data.
+Maps business questions to metrics, data sources, and analysis methods.
 
-It covers:
-
-* Student registrations and active students
-* Course performance and enrollment
-* Student attendance
-* Demo-to-enrollment conversion
-* Subscription and plan selection
-* Student drop-off
-* Course switching
-* Project and assessment performance
-* Recording usage and learning activity
-* Course completion and certificates
-* Revenue and payments
-* Student support
-
-Each business question is mapped to the required metric, data source, and analysis method.
+Covers registrations, active students, course performance, attendance, demo conversion, subscriptions, drop-offs, switching, projects, assessments, recordings, certificates, revenue, payments, and support.
 
 ## Data Quality Audit
 
-The CDaX Data Quality Audit checks whether the available data is accurate, complete, consistent, and usable for business analysis.
+Checks data accuracy, completeness, and consistency, including:
 
-The audit covers:
+* Missing and duplicate records
+* Incorrect IDs and invalid payments
+* Missing attendance and timestamps
+* Subscription and course-switching issues
+* Recording, project, and assessment gaps
+* Frontend/backend mismatches
+* Table relationships and join issues
 
-* Missing student records
-* Duplicate students
-* Duplicate enrollments
-* Incorrect course IDs
-* Invalid payment records
-* Missing attendance
-* Impossible timestamps
-* Inconsistent subscription status
-* Missing course-switch information
-* Missing or incomplete recording consumption data
-* Incorrect or null project data
-* Incorrect or null assessment data
-* Frontend and backend data mismatch
-* Tables and records that cannot be properly joined
-
-The audit also documents identified data issues, data gaps, validation requirements, and the additional source data required for checks that cannot be fully validated.
+Documents identified issues, validation requirements, and unavailable source data.
 
 ## Revenue Forecasting Model
 
-The revenue forecasting model is designed to estimate future CDaX revenue based on student growth and subscription behavior.
+Forecasts future revenue using student growth, subscription pricing, renewals, and cancellations.
 
-The model includes:
+Includes monthly forecasts and Best-case, Base-case, and Worst-case scenarios. Missing historical revenue or subscription data is documented separately from forecast assumptions.
 
-* Student growth assumptions
-* Subscription mix and pricing
-* Renewal assumptions
-* Cancellation assumptions
-* Monthly revenue forecast
-* Best-case, Base-case, and Worst-case scenarios
+## Course Demand Forecasting Model
 
-The model uses the available CDaX data and defined subscription pricing. Where historical subscription or revenue data is not available or fully verified, the values are documented as data gaps or forecast assumptions rather than using invented historical values.
+Forecasts potential demand for individual courses using available enrollment history and other verified signals.
+
+Analyzes expected enrollments, demand trends, seasonal changes, and course capacity requirements. Missing historical data is documented rather than invented.
 
 ## Attendance Pattern Analysis
 
-The attendance pattern analysis goes beyond basic attendance percentage and is designed to understand student attendance behavior and engagement patterns.
+Analyzes attendance consistency, declining attendance, selective class attendance, weekday versus weekend patterns, class timings, holiday effects, and the relationship between attendance and course completion.
 
-The analysis covers:
-
-* Students consistently attending
-* Students gradually reducing attendance
-* Students attending only certain classes
-* Weekday versus weekend attendance
-* Class timing patterns
-* Attendance before and after holidays
-* Attendance and course completion relationship
-* Available learning and engagement signals
-* Attendance data availability and tracking gaps
-
-The analysis is designed to help CDAX understand attendance behavior, identify potential engagement issues, and support decisions related to class scheduling and student engagement.
-
-Where student-level attendance records, class dates, class timings, holiday information, or attendance-linked completion data are not available or fully verified, the corresponding analysis has been documented as Not Calculable rather than using estimated values.
+Unavailable attendance records and scheduling information are documented as data gaps.
 
 ## Certificate & Completion Analysis
 
-The certificate and completion analysis is designed to understand what happens between enrollment and certification.
-
-The analysis follows the journey:
+Tracks the journey:
 
 Enrollment → Learning → Assessment → Project → Completion → Certificate
 
-The analysis covers:
+Analyzes completion rates, certification rates, time to certification, course-wise results, and students who complete learning without obtaining certificates.
 
-* Certification rate
-* Time to certification
-* Course-wise certification
-* Students who complete learning but do not obtain certificates
-* Students who obtain certificates without completing expected activities, where applicable
-* Completion rate
-* Certification data availability
-* Assessment and project data gaps
-* Barriers between learning, completion, and certification
-
-The analysis is based only on the available CDAX sample and backend data.
-
-The current available data confirms:
-
-* 3 enrolled students
-* 1 student with observed learning activity based on watched content
-* 0 students reached 100% course completion
-* Course completion rate is 0%
-* Actual certificate records are not available in the reviewed sample
-* Assessment completion cannot be confirmed
-* Project activity records are not available
-
-The observed learning activity count should not be interpreted as learning completion. It represents a student with recorded learning activity such as watched content.
-
-Because actual certificate records are unavailable, certification rate, time to certification, course-wise certification, learning-completed-without-certificate analysis, and certificate validation against expected activities cannot currently be calculated.
+Available sample data indicates 3 enrolled students, 1 student with observed learning activity, and 0 students with 100% course completion. Actual certificate records are unavailable in the reviewed sample, so certification metrics cannot currently be calculated.
 
 ## Notification Effectiveness Analysis
 
-The notification effectiveness analysis evaluates App, Email, SMS, and Push Notifications to understand their impact on student returns, class attendance, recording consumption, and project activity.
+Evaluates App, Email, SMS, and Push Notifications and their potential impact on student returns, attendance, recording consumption, and project activity.
 
-The analysis includes notification tracking, student behavior, effectiveness metrics, and data gaps. Where notification records are unavailable or unverified, the corresponding metrics are documented as Not Available or Not Calculable.
+Includes notification tracking, effectiveness metrics, student behavior, and data availability. Missing notification records are documented as data gaps.
 
+## Mentor Allocation Model
+
+Helps determine how mentors should be allocated across students and courses.
+
+Analyzes:
+
+* Student volume and course difficulty
+* Attendance and support requirements
+* Project and mentor workload
+* Response time and workload balance
+* Recommended mentor allocation
+
+Missing mentor data is documented, and proposed allocations are distinguished from actual assignments.
+
+## Live Class Capacity Model
+
+Evaluates whether available live-class capacity can meet student demand.
+
+Analyzes:
+
+* Student enrollment and class demand
+* Existing classes and class capacity
+* Attendance and capacity utilization
+* Required number of classes
+* Capacity gaps and planning recommendations
+
+Missing or unverified information is documented rather than presented as actual results.
+
+## Pricing Scenario Simulator
+
+Compares alternative pricing options and their potential business impact.
+
+Analyzes:
+
+* Current and alternative pricing
+* Subscription and enrollment assumptions
+* Monthly and annual revenue projections
+* Best-case, Base-case, and Worst-case scenarios
+* Revenue comparisons across pricing options
+
+Unverified prices and historical revenue are documented as data gaps. Scenario assumptions are clearly distinguished from actual results.
 
 ## Files
 
-* `CDAX_Data_Dictionary.xlsx` — CDaX Data Dictionary
-* `CDaX PowerBI Data.xlsx` — Excel data used to create the Power BI dashboard
+* `CDAX_Data_Dictionary.xlsx` — CDaX data dictionary
+* `CDaX PowerBI Data.xlsx` — Excel data prepared for Power BI
 * `CDAX.pbix` — Power BI dashboard
 * `CDAX_KPI_Formula.xlsx` — KPI definitions and formulas
-* `CDAX_Event_Tracking_Specification.xlsx` — CDaX event tracking specification
-* `CDAX_Student_Funnel_Analysis.xlsx` — CDaX student funnel analysis
-* `CDAX_Student_Lifecycle_Analysis.xlsx` — CDaX student lifecycle analysis from registration through renewal, switching, or exit
-* `CDAX_Recording_Consumption_Analysis.xlsx` — CDaX recording consumption analysis
-* `CDAX_Course_Switching_Analysis.xlsx` — CDaX course switching analysis
-* `CDAX_Recommendation_Experimentation_Plan.xlsx` — CDaX recommendation and experimentation plan
-* `CDAX_Student_Engagement_Model.xlsx` — CDaX student engagement scoring methodology
-* `CDAX_Student_Value_Segmentation.xlsx` — CDaX student value segmentation analysis
-* `CDAX_Management_Analytics.xlsx` — CDaX management analytics framework
-* `CDAX_Data_Quality_Audit.xlsx` — CDaX data quality audit
-* `CDAX_Revenue_Forecasting_Model.xlsx` — CDaX revenue forecasting model
-* `CDAX_Course_Demand_Forecast.xlsx` — CDaX course demand forecasting model
-* `CDAX_Attendance_Pattern_Analysis.xlsx` — CDaX attendance pattern analysis
-* `CDAX_Certificate_Completion_Analysis.xlsx` — CDaX certificate and completion analysis
-* `CDAX_Notification_Effectiveness_Analysis.xlsx — CDaX notification effectiveness analysis
+* `CDAX_Event_Tracking_Specification.xlsx` — Event tracking specification
+* `CDAX_Student_Funnel_Analysis.xlsx` — Student funnel analysis
+* `CDAX_Student_Lifecycle_Analysis.xlsx` — Student lifecycle analysis
+* `CDAX_Recording_Consumption_Analysis.xlsx` — Recording consumption analysis
+* `CDAX_Course_Switching_Analysis.xlsx` — Course switching analysis
+* `CDAX_Recommendation_Experimentation_Plan.xlsx` — Recommendation and experimentation plan
+* `CDAX_Student_Engagement_Model.xlsx` — Student engagement scoring model
+* `CDAX_Student_Value_Segmentation.xlsx` — Student value segmentation
+* `CDAX_Management_Analytics.xlsx` — Management analytics framework
+* `CDAX_Data_Quality_Audit.xlsx` — Data quality audit
+* `CDAX_Revenue_Forecasting_Model.xlsx` — Revenue forecasting model
+* `CDAX_Course_Demand_Forecast.xlsx` — Course demand forecasting model
+* `CDAX_Attendance_Pattern_Analysis.xlsx` — Attendance pattern analysis
+* `CDAX_Certificate_Completion_Analysis.xlsx` — Certificate and completion analysis
+* `CDAX_Notification_Effectiveness_Analysis.xlsx` — Notification effectiveness analysis
+* `CDAX_Mentor_Allocation_Model.xlsx` — Mentor allocation and workload planning
+* `CDAX_Live_Class_Capacity_Model.xlsx` — Live-class capacity planning
+* `CDAX_Pricing_Scenario_Simulator.xlsx` — Pricing scenario comparison and revenue simulation
