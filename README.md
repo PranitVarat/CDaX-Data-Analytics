@@ -30,6 +30,8 @@ This repository contains the data analytics work prepared for the CDaX project u
 * Mentor Allocation Model
 * Live Class Capacity Model
 * Pricing Scenario Simulator
+* Learning Outcome Measurement Model
+* Assessment Question Quality Analyzer
 
 ## Data Source
 
@@ -197,6 +199,38 @@ Analyzes:
 
 Unverified prices and historical revenue are documented as data gaps. Scenario assumptions are clearly distinguished from actual results.
 
+## Learning Outcome Measurement Model
+
+Evaluates whether students are achieving the intended learning outcomes from CDaX courses.
+
+Analyzes:
+
+* Learning objectives and course outcomes
+* Assessment scores and student performance
+* Pre-assessment and post-assessment comparisons, where available
+* Course-wise and topic-wise learning progress
+* Learning improvement and outcome achievement
+* Students requiring additional learning support
+* Data gaps affecting outcome measurement
+
+Uses available assessment and learning data. Missing baseline scores, assessment results, or learning outcome mappings are documented rather than estimated. Learning improvement can only be measured where the required data is available.
+
+## Assessment Question Quality Analyzer
+
+Evaluates the quality, difficulty, and effectiveness of questions used in CDaX quizzes, tests, and examinations.
+
+Analyzes:
+
+* Question difficulty
+* Percentage of students answering correctly
+* Correct and incorrect response patterns
+* Question-wise student performance
+* Assessment and topic-wise performance
+* Questions that may be too easy or too difficult
+* Questions requiring review based on available evidence
+
+Uses available question, assessment, and student response data. Metrics such as percentage correct, difficulty classification, and question discrimination require sufficient response-level data. Missing question IDs, answer keys, student responses, or marks are documented as data gaps rather than replaced with assumed results.
+
 ## Files
 
 * `CDAX_Data_Dictionary.xlsx` — CDaX data dictionary
@@ -221,3 +255,5 @@ Unverified prices and historical revenue are documented as data gaps. Scenario a
 * `CDAX_Mentor_Allocation_Model.xlsx` — Mentor allocation and workload planning
 * `CDAX_Live_Class_Capacity_Model.xlsx` — Live-class capacity planning
 * `CDAX_Pricing_Scenario_Simulator.xlsx` — Pricing scenario comparison and revenue simulation
+* [CDAX_Learning_Outcome_Measurement_Model.xlsx](https://github.com/PranitVarat/CDaX-Data-Analytics/blob/main/CDAX_Learning_Outcome_Measurement_Model.xlsx) — Learning outcome measurement and student progress analysis
+* [CDAX_Assessment_Question_Quality_Analyzer.xlsx](https://github.com/PranitVarat/CDaX-Data-Analytics/blob/main/CDAX_Assessment_Question_Quality_Analyzer.xlsx) — Assessment question difficulty and quality analysis
