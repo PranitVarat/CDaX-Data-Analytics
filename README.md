@@ -32,6 +32,10 @@ This repository contains the data analytics work prepared for the CDaX project u
 * Pricing Scenario Simulator
 * Learning Outcome Measurement Model
 * Assessment Question Quality Analyzer
+* Revenue and Financial Performance Dashboard
+* Student Enrollment & Performance Dashboard
+* Application Pie Chart Analysis
+* Student Complaint Root Cause Analysis
 
 ## Data Source
 
@@ -231,9 +235,53 @@ Analyzes:
 
 Uses available question, assessment, and student response data. Metrics such as percentage correct, difficulty classification, and question discrimination require sufficient response-level data. Missing question IDs, answer keys, student responses, or marks are documented as data gaps rather than replaced with assumed results.
 
+## Revenue and Financial Performance Dashboard
+
+Analyzes available course sales and purchase records to support financial performance monitoring.
+
+Covers:
+
+* Course-wise purchase analysis
+* Estimated gross sales based on available course pricing
+* Monthly revenue trend requirements
+* Payment status and collection requirements
+* Refund analysis requirements
+* Pricing and revenue comparisons
+* Financial data gaps and recommendations
+
+Payment collections, pending payments, refunds, and net revenue require validated transaction data. Estimated sales are not treated as confirmed revenue.
+
+## Student Enrollment & Performance Dashboard
+
+Organizes available student and course information to support enrollment and learning performance monitoring.
+
+Covers:
+
+* Student enrollment overview
+* Course-wise enrollment analysis
+* Student learning activity
+* Course progress and completion
+* Performance indicators and data gaps
+
+Unavailable enrollment, assessment, or completion records are documented rather than estimated.
+
+## Application Pie Chart Analysis
+
+Presents an application-level analysis using pie charts to show the distribution of available categories and metrics.
+
+Charts are based on available source data. Missing or unverified values are documented rather than assumed.
+
+## Student Complaint Root Cause Analysis
+
+Organizes student complaint information to identify potential causes of issues and areas requiring improvement.
+
+Covers complaint categories, recurring issues, possible root causes, and recommended actions where supporting data is available.
+
+Missing complaint records or resolution details are documented as data gaps.
+
 ## Files
 
-* `CDAX_Data_Dictionary.xlsx` — CDaX data dictionary
+* `CDAX Data Dictionary.xlsx` — CDaX data dictionary
 * `CDaX PowerBI Data.xlsx` — Excel data prepared for Power BI
 * `CDAX.pbix` — Power BI dashboard
 * `CDAX_KPI_Formula.xlsx` — KPI definitions and formulas
@@ -243,7 +291,7 @@ Uses available question, assessment, and student response data. Metrics such as 
 * `CDAX_Recording_Consumption_Analysis.xlsx` — Recording consumption analysis
 * `CDAX_Course_Switching_Analysis.xlsx` — Course switching analysis
 * `CDAX_Recommendation_Experimentation_Plan.xlsx` — Recommendation and experimentation plan
-* `CDAX_Student_Engagement_Model.xlsx` — Student engagement scoring model
+* `DAX_Student_Engagement_Model.xlsx` — Student engagement scoring model
 * `CDAX_Student_Value_Segmentation.xlsx` — Student value segmentation
 * `CDAX_Management_Analytics.xlsx` — Management analytics framework
 * `CDAX_Data_Quality_Audit.xlsx` — Data quality audit
@@ -255,5 +303,9 @@ Uses available question, assessment, and student response data. Metrics such as 
 * `CDAX_Mentor_Allocation_Model.xlsx` — Mentor allocation and workload planning
 * `CDAX_Live_Class_Capacity_Model.xlsx` — Live-class capacity planning
 * `CDAX_Pricing_Scenario_Simulator.xlsx` — Pricing scenario comparison and revenue simulation
-* [CDAX_Learning_Outcome_Measurement_Model.xlsx](https://github.com/PranitVarat/CDaX-Data-Analytics/blob/main/CDAX_Learning_Outcome_Measurement_Model.xlsx) — Learning outcome measurement and student progress analysis
-* [CDAX_Assessment_Question_Quality_Analyzer.xlsx](https://github.com/PranitVarat/CDaX-Data-Analytics/blob/main/CDAX_Assessment_Question_Quality_Analyzer.xlsx) — Assessment question difficulty and quality analysis
+* `CDAX_Learning_Outcome_Measurement_Model.xlsx` — Learning outcome measurement and student progress analysis
+* `CDAX_Assessment_Question_Quality_Analyzer.xlsx` — Assessment question difficulty and quality analysis
+* `CDAX_Revenue_Financial_Performance_Dashboard.xlsx` — Revenue and financial performance dashboard
+* `CDAX_Student_Enrollment_Performance_Dashboard.xlsx` — Student enrollment and performance dashboard
+* `CDAX_Application_Pie_Chart_Analysis.pdf` — Application pie chart analysis
+* `CDAX_Student_Complaint_Root_Cause_Analysis.pdf` — Student complaint root cause analysis
