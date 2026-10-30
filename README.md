@@ -36,6 +36,11 @@ This repository contains the data analytics work prepared for the CDaX project u
 * Student Enrollment & Performance Dashboard
 * Application Pie Chart Analysis
 * Student Complaint Root Cause Analysis
+* Executive Business Dashboard
+* KPI Definition Register
+* Business Risk and Gap Register
+* Data Validation and Reconciliation
+* Management Performance Review
 
 ## Data Source
 
@@ -105,7 +110,7 @@ Missing activity data is documented rather than treated as confirmed engagement.
 
 Evaluates student value using course participation, subscription duration, renewals, switching, projects, completion, support usage, and revenue.
 
-Defines High, Medium, and Low Value profiles using a proposed scoring framework. Students with insufficient verified information are classified as **Insufficient Data**.
+Defines High, Medium, and Low Value profiles using a proposed scoring framework. Students with insufficient verified information are classified as Insufficient Data.
 
 ## Management Analytics
 
@@ -279,33 +284,78 @@ Covers complaint categories, recurring issues, possible root causes, and recomme
 
 Missing complaint records or resolution details are documented as data gaps.
 
+## Executive Business Dashboard
+
+Provides a management-level overview of available CDaX business metrics and performance indicators.
+
+Organizes key information to support business monitoring, performance review, and management decision-making. Metrics are based on available and verified source data.
+
+## KPI Definition Register
+
+Maintains a structured register of business and operational KPIs.
+
+Includes KPI names, definitions, calculation formulas, data sources, reporting requirements, and business purpose. Metrics requiring unavailable source data are documented accordingly.
+
+## Business Risk and Gap Register
+
+Documents identified business, operational, and data-related risks in the CDaX analytics work.
+
+Includes risk descriptions, affected areas, data gaps, potential impact, and recommended follow-up actions. Unverified risks and impacts are not presented as confirmed incidents.
+
+## Data Validation and Reconciliation
+
+Reviews available CDaX source records and prepares validation checks for student, course, enrollment, payment, and financial information.
+
+Includes:
+
+* Source inventory and validation rules
+* Student and enrollment validation templates
+* Payment and financial reconciliation templates
+* Exception register
+* Corrective action plan
+
+A purchase dated 1 January 2026 appears before the related user registration dated 3 January 2026. The reason requires confirmation.
+
+A separate verified enrollment register, detailed payment transaction ledger, and refund ledger were not available in the reviewed source data. Therefore, full enrollment, payment, and financial reconciliation remains pending.
+
+## Management Performance Review
+
+Summarizes the available management-level performance information, key observations, data limitations, and recommended next steps.
+
+The report distinguishes available findings from missing or unverified information. Financial and operational conclusions requiring additional source records are not treated as confirmed results.
+
 ## Files
 
-* `CDAX Data Dictionary.xlsx` — CDaX data dictionary
+* `CDaX Data Dictionary.xlsx` — CDaX data dictionary
 * `CDaX PowerBI Data.xlsx` — Excel data prepared for Power BI
 * `CDAX.pbix` — Power BI dashboard
 * `CDAX_KPI_Formula.xlsx` — KPI definitions and formulas
-* `CDAX_Event_Tracking_Specification.xlsx` — Event tracking specification
-* `CDAX_Student_Funnel_Analysis.xlsx` — Student funnel analysis
-* `CDAX_Student_Lifecycle_Analysis.xlsx` — Student lifecycle analysis
-* `CDAX_Recording_Consumption_Analysis.xlsx` — Recording consumption analysis
-* `CDAX_Course_Switching_Analysis.xlsx` — Course switching analysis
-* `CDAX_Recommendation_Experimentation_Plan.xlsx` — Recommendation and experimentation plan
-* `DAX_Student_Engagement_Model.xlsx` — Student engagement scoring model
-* `CDAX_Student_Value_Segmentation.xlsx` — Student value segmentation
-* `CDAX_Management_Analytics.xlsx` — Management analytics framework
-* `CDAX_Data_Quality_Audit.xlsx` — Data quality audit
-* `CDAX_Revenue_Forecasting_Model.xlsx` — Revenue forecasting model
-* `CDAX_Course_Demand_Forecast.xlsx` — Course demand forecasting model
-* `CDAX_Attendance_Pattern_Analysis.xlsx` — Attendance pattern analysis
-* `CDAX_Certificate_Completion_Analysis.xlsx` — Certificate and completion analysis
-* `CDAX_Notification_Effectiveness_Analysis.xlsx` — Notification effectiveness analysis
-* `CDAX_Mentor_Allocation_Model.xlsx` — Mentor allocation and workload planning
-* `CDAX_Live_Class_Capacity_Model.xlsx` — Live-class capacity planning
-* `CDAX_Pricing_Scenario_Simulator.xlsx` — Pricing scenario comparison and revenue simulation
-* `CDAX_Learning_Outcome_Measurement_Model.xlsx` — Learning outcome measurement and student progress analysis
-* `CDAX_Assessment_Question_Quality_Analyzer.xlsx` — Assessment question difficulty and quality analysis
-* `CDAX_Revenue_Financial_Performance_Dashboard.xlsx` — Revenue and financial performance dashboard
-* `CDAX_Student_Enrollment_Performance_Dashboard.xlsx` — Student enrollment and performance dashboard
-* `CDAX_Application_Pie_Chart_Analysis.pdf` — Application pie chart analysis
-* `CDAX_Student_Complaint_Root_Cause_Analysis.pdf` — Student complaint root cause analysis
+* `CDAX_Event_Tracking_Specification.xlsx` — event tracking specification
+* `CDAX_Student_Funnel_Analysis.xlsx` — student funnel analysis
+* `CDAX_Student_Lifecycle_Analysis.xlsx` — student lifecycle analysis
+* `CDAX_Recording_Consumption_Analysis.xlsx` — recording consumption analysis
+* `CDAX_Course_Switching_Analysis.xlsx` — course switching analysis
+* `CDAX_Recommendation_Experimentation_Plan.xlsx` — recommendation and experimentation plan
+* `DAX_Student_Engagement_Model.xlsx` — student engagement scoring model
+* `CDAX_Student_Value_Segmentation.xlsx` — student value segmentation
+* `CDAX_Management_Analytics.xlsx` — management analytics framework
+* `CDAX_Data_Quality_Audit.xlsx` — data quality audit
+* `CDAX_Revenue_Forecasting_Model.xlsx` — revenue forecasting model
+* `CDAX_Course_Demand_Forecast.xlsx` — course demand forecasting model
+* `CDAX_Attendance_Pattern_Analysis.xlsx` — attendance pattern analysis
+* `CDAX_Certificate_Completion_Analysis.xlsx` — certificate and completion analysis
+* `CDAX_Notification_Effectiveness_Analysis.xlsx` — notification effectiveness analysis
+* `CDAX_Mentor_Allocation_Model.xlsx` — mentor allocation and workload planning
+* `CDAX_Live_Class_Capacity_Model.xlsx` — live-class capacity planning
+* `CDAX_Pricing_Scenario_Simulator.xlsx` — pricing scenario comparison and revenue simulation
+* `CDAX_Learning_Outcome_Measurement_Model.xlsx` — learning outcome measurement and student progress analysis
+* `CDAX_Assessment_Question_Quality_Analyzer.xlsx` — assessment question difficulty and quality analysis
+* `CDAX_Revenue_Financial_Performance_Dashboard.xlsx` — revenue and financial performance dashboard
+* `CDAX_Student_Enrollment_Performance_Dashboard.xlsx` — student enrollment and performance dashboard
+* `CDAX_Application_Pie_Chart_Analysis.pdf` — application pie chart analysis
+* `CDAX_Student_Complaint_Root_Cause_Analysis.pdf` — student complaint root cause analysis
+* `CDAX_Executive_Business_Dashboard.xlsx` — executive business dashboard
+* `CDAX_KPI_Definition_Register.xlsx` — KPI definitions, formulas, and reporting details
+* `CDAX_Business_Risk_and_Gap_Register.xlsx` — business risks, data gaps, and follow-up actions
+* `CDAX_Data_Validation_and_Reconciliation.xlsx` — data validation rules, reconciliation templates, exceptions, and corrective actions
+* `CDAX_Management_Performance_Review.pdf` — management performance review report
