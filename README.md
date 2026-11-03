@@ -41,6 +41,7 @@ This repository contains the data analytics work prepared for the CDaX project u
 * Business Risk and Gap Register
 * Data Validation and Reconciliation
 * Management Performance Review
+* Student Retention Analysis
 
 ## Data Source
 
@@ -324,6 +325,22 @@ Summarizes the available management-level performance information, key observati
 
 The report distinguishes available findings from missing or unverified information. Financial and operational conclusions requiring additional source records are not treated as confirmed results.
 
+## Student Retention Analysis
+
+Identifies available indicators related to student retention, course continuation, discontinuation, and repeat enrollment.
+
+Analyzes:
+
+* Course-wise purchase records and purchasing students
+* Student-level repeat purchase patterns
+* Available learning activity signals
+* Retention and discontinuation data requirements
+* Student segments and retention measurement gaps
+* Potential revenue impact of improving retention
+* Recommended actions to reduce student dropouts and improve repeat enrollment
+
+The current sample contains 3 student accounts and 5 purchase records. Multiple purchase records are treated only as a repeat-purchase signal, not as confirmed course retention or repeat enrollment. Verified enrollment status, dropout records, completion events, and payment amounts are not available in the reviewed sample. Actual retention rates, dropout rates, and revenue impact therefore require additional verified data.
+
 ## Files
 
 * `CDaX Data Dictionary.xlsx` — CDaX data dictionary
@@ -359,3 +376,4 @@ The report distinguishes available findings from missing or unverified informati
 * `CDAX_Business_Risk_and_Gap_Register.xlsx` — business risks, data gaps, and follow-up actions
 * `CDAX_Data_Validation_and_Reconciliation.xlsx` — data validation rules, reconciliation templates, exceptions, and corrective actions
 * `CDAX_Management_Performance_Review.pdf` — management performance review report
+* `CDAX_Student_Retention_Analysis.xlsx` — student retention analysis, repeat purchase patterns, revenue scenario, and retention action plan
